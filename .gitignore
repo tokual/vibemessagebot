@@ -1,3 +1,20 @@
+# Logs
+logs/
+*.log
+
+# Database
+data/
+*.db
+*.sqlite
+
+# Environment Variables
+.env
+.env.local
+.env.production
+
+# Systemd
+.systemctl_cmd
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -5,6 +22,12 @@ __pycache__/
 
 # C extensions
 *.so
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
 
 # Distribution / packaging
 .Python
@@ -192,3 +215,8 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Mac OS artifacts
+.DS_Store
+# Windows artifacts
+Thumbs.db
